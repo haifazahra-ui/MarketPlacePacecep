@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MARKET PLACE PPLG 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./faw6/css/all.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+				
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary ">
+        <div class="container-fluid ">
+            <a class="navbar-brand text-warning" href="/">MARKETPLACE PPLG 2</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+                <div class="d-flex" role="search">
+                    <button type="button" class="bg-dark text-light" onclick="showListCart()">
+                        <i class="fa-solid fa-cart-shopping text-light"></i> <span class="badge text-bg-secondary"
+                            id="cart-total"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container p-4">
+        <div class="banner">
+            <img src="./banner/pooh 1.jpeg" class="img-fluid" alt="./banner/pooh 1.jpeg">
+            <img src="./banner/pooh 2.jpeg" class="img-fluid" alt="./banner/pooh 2.jpeg">
+            <img src="./banner/pooh 3.jpeg" class="img-fluid" alt="./banner/pooh 3.jpeg">
+            <img src="./banner/pooh 4.jpeg" class="img-fluid" alt="./banner/pooh 4.jpeg">
+        </div>
+        <div class="row d-none" id="list-cart-products">
+            <div id="list-cart-show">
+                
+            </div>
+            <button class="btn btn-dark" onclick="backToProduct()">Back To Product</button>
+        </div>
+        <div class="row" id="list-products"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="js/query-1.11.0.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="js/slick-carousel.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
